@@ -1,24 +1,29 @@
-section {
-    display: flex; 
-    justify-content: center;  
-    align-items: center;  
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+
 button {
-    background-color:darkgray; /* Green */
-    border: none;
+    width: 2em;
+    height: 2em;
+    border-radius: 20%;
+    background-color: gray;
     color: white;
-    padding: 16px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    transition-duration: 0.4s;
-    cursor: pointer;
-  }
-  
+    font-size: 2em;
+}
+
 button:hover {
-    background-color:darkgray;
-    color: white;
-  }
+    color: gray;
+    background-color: white;
+}
+
